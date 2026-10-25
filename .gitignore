@@ -1,0 +1,60 @@
+# .NET build output (all projects and architecture layers)
+**/bin/
+**/obj/
+[Aa]rtifacts/
+[Pp]ublish/
+
+# Visual Studio, Rider, and editor-local settings
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.sln.iml
+*.DotSettings.user
+
+# Test results and coverage reports
+**/TestResults/
+**/coverage/
+**/coverage-report/
+**/BenchmarkDotNet.Artifacts/
+*.trx
+*.coverage
+*.coveragexml
+coverage*.xml
+coverage*.json
+lcov.info
+
+# NuGet packages (keep dependency lock files under version control)
+**/packages/
+*.nupkg
+*.snupkg
+
+# Local secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+!.env.template
+**/appsettings.Local.json
+**/appsettings.*.Local.json
+*.pfx
+*.p12
+*.publishsettings
+*.pubxml.user
+
+# Logs and temporary files
+**/logs/
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+~$*
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
