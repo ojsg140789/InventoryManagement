@@ -1,4 +1,9 @@
 <Solution>
+  <Project Path="Inventory.Api/Inventory.Api.csproj" />
+  <Project Path="Inventory.Application.Tests/Inventory.Application.Tests.csproj" Id="bb3d9111-a30d-4dc6-8cf2-f345e32fe876" />
+  <Project Path="Inventory.Application/Inventory.Application.csproj" Id="bf9c1001-93dc-497a-97da-6a5055db083b" />
   <Project Path="Inventory.Domain.Test/Inventory.Domain.Test.csproj" />
   <Project Path="Inventory.Domain/Inventory.Domain.csproj" />
+  <Project Path="Inventory.Infrastructure.Tests/Inventory.Infrastructure.Tests.csproj" />
+  <Project Path="Inventory.Infrastructure/Inventory.Infrastructure.csproj" />
 </Solution>
